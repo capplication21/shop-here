@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* start */
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  width: 400px;
+  height: auto;
+  /* padding: 20px; */
+  background-color: #fcfcff;
+
+  padding-bottom: 20px;
+}
+.card-container {
+  /* margin-left: 30px; */
+  display: flex;
+  justify-content: center;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.body-container {
+  background-color: white;
+  padding: 20px;
+}
+.content-container {
+  color: #1b153d;
+  font-family: "Raleway";
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  color: #5b41ff;
+}
+
+h6 {
+  color: #9095a6;
+}
+.head {
+  color: #1b153d;
+  padding-left: 20px;
+}
+
+.color-container {
+  display: flex;
+  gap: 20px;
+}
+
+.color-round {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.chalk-pink {
+  background-color: #f0dec5;
+}
+.dark-pink {
+  background-color: #ffc8b7;
+}
+.dark-green {
+  background-color: #5f8477;
+}
+
+.color-round:hover {
+  border: 1px solid black;
+}
+
+.Menu-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+.Menu {
+  color: blue;
+  margin-right: 20px;
+}
+.line {
+  background-color: #5b41ff;
+  height: 2px;
+  width: 20px;
+  border-radius: 10px;
+}
+.header {
+  font-family: "Raleway";
+  font-size: 14px;
+  padding-top: 20px;
+}
+.btn {
+  height: 71px;
+  width: 100%;
+  color: white;
+  background-color: #8743ff;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* 
+.color {
+  border: 1px solid rgba(144, 149, 166, 0.1);
+  border-radius: 8px;
+  padding: 8px;
+}
+.color-round {
+  width: 25px;
+  height: 25px;
+}
+.chalk-pink {
+  background-color: #f0dec5;
+}
+.dark-pink {
+  background-color: #ffc8b7;
+}
+.dark-green {
+  background-color: #5f8477;
+}
+
+.color:hover {
+  border: 1px solid black;
+}
+
+
+
+
+
+
+*/
